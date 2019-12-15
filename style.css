@@ -1,0 +1,16 @@
+#header {
+	color: purple;
+	text-align: center;
+}
+.items{
+	color:blue;
+	font-size: 55;
+	text-align: center;
+}
+.sale{
+	color:red;
+	font-size: 40;
+}
+body{
+	background-color: gray;
+}

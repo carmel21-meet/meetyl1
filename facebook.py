@@ -1,5 +1,6 @@
 users = []
 posts = []
+comment_list = []
 class User():
 	def __init__(self,name,email,password):
 
@@ -44,4 +45,13 @@ class Post():
 	def add_post(self,text,picture):
 		self.posts_list.append(text,picture)
 		print(self.name + " has posted " + text + " and has posted " + picture)
+class Comment(Post):
+	def __init__(self,name):
+		self.name = name
+	def comment(self,text):
+		comment_list.append(text)
+		print(self.name + " has commented " , text)
+comment1 = Comment("Mousa")
+comment1.comment("Heello")
+
 
